@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  font-family: Poppins;
+}
+
+.container{
+  min-height: 100vh;
+}
+
+.center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#cont{
+  min-height: 90vh;
+}
+
+.bar{
+  background-color: rgb(68, 68, 68);
+  color: white;
+  min-height: 5vh;
+}

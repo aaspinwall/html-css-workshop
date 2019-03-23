@@ -1,0 +1,34 @@
+/*
+You will need the following properties:
+
+    height
+    text-align
+    display
+    border-style
+    margin
+    padding
+    font-weight
+*/
+
+.overContainer{
+  padding: 30px;
+}
+
+.container{
+  display: flex;
+}
+
+.col{
+  border-style: dotted;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.pic{
+  height: 100px;
+}
+
+.text{
+  font-weight: bold;
+}

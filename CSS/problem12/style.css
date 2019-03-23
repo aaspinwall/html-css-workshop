@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  font-family: Poppins;
+}
+
+.container{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar{
+  background-color: rgb(68, 68, 68);
+  color: white
+}

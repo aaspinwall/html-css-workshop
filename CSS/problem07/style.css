@@ -1,8 +1,26 @@
+/*
+You will need to use the display css property and set it to flex. Furthermore, you will need the following properties:
+
+    height
+    text-align
+    border-style
+    margin
+    padding
+*/
+
 .container {
+  display: flex;
+  font-size: xx-large;
 }
 
 .smol {
+  height: 100px;
+  margin: 5px;
 }
 
 .col {
+  margin: 20px;
+  text-align: center;
+  border-style: dotted;
+  padding: 10px;
 }

@@ -1,9 +1,9 @@
 .pinkdiv {
+  background-color: pink;
 }
 .purple {
+  background-color: purple;
 }
 .big {
-}
-h1 {
-
+  font-size: 5rem;
 }

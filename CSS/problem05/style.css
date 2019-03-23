@@ -1,0 +1,38 @@
+/* 
+You will need to use the following css properties:  
+text-align  
+background-color  
+font-size  
+font-family  
+text-decoration  
+list-style-type
+*/
+
+div{
+  background-color: gray;
+}
+
+.monospaced{
+  font-family: monospace;
+}
+
+li{
+  list-style: none;
+}
+
+.centered{
+  text-align: center;
+}
+
+#title{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#subtitle{
+  font-size: large
+}
+
+#content{
+  text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+body{
+  margin: 0%;
+  font-family: Poppins;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cont{
+  flex: 1;
+}
+
+.bar{
+  background-color: rgb(82, 82, 82);
+  color: white;
+  height: 50px;
+}
