@@ -11,17 +11,18 @@
       Registration form
     </h1>
     <form class="registration-form">
-      <label>Username</label>
-      <input type="text" required class="text-field" />
-
-      <label>Password</label>
-      <input type="password" required class="text-field" />
-
-      <div>
+      <div class="top">
+        <label>Username</label>
+        <input type="text" required class="text-field" />
+  
+        <label>Password</label>
+        <input type="password" required class="text-field" />
+  
         <label>Email</label>
         <input type="email" required class="text-field" />
       </div>
-      <div class="section">
+<!-- Middle -->
+      <div class="section middle">
         Which taxi do you require?
         <div>
           <label class="radio-label">
@@ -38,27 +39,30 @@
             <input type="radio" name="vehicle" required /> Tuk Tuk
           </label>
         </div>
+        <div>
+            Extras
+            <div>
+              <label class="checkbox-label">
+                <input type="checkbox" /> Baby Seat
+              </label>
+            </div>
+            <div>
+              <label class="checkbox-label">
+                <input type="checkbox" />
+                Wheelchair Access
+              </label>
+            </div>
+            <div>
+              <label class="checkbox-label">
+                <input type="checkbox" /> Stock Tip
+              </label>
+            </div>
+          </div>
       </div>
-      <div>
-        Extras
-        <div>
-          <label class="checkbox-label">
-            <input type="checkbox" /> Baby Seat
-          </label>
-        </div>
-        <div>
-          <label class="checkbox-label">
-            <input type="checkbox" />
-            Wheelchair Access
-          </label>
-        </div>
-        <div>
-          <label class="checkbox-label">
-            <input type="checkbox" /> Stock Tip
-          </label>
-        </div>
-      </div>
-      <div class="section">
+      
+
+      <!-- Bottom -->
+      <div class="section" id="bottom">
         <label>
           Pickup
           <select>
@@ -69,15 +73,17 @@
           </select>
         </label>
       </div>
-      <div>
-        <label>
+      <div class="">
+        <label class="name">
           Special
           <textarea></textarea>
         </label>
       </div>
-      <button class="form-button">
-        Submit
-      </button>
+      <div class="center-flex">
+        <button class="form-button">
+          Submit
+        </button>
+      </div>
     </form>
   </body>
 </html>

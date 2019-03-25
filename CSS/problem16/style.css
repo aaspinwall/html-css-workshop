@@ -1,0 +1,33 @@
+body{
+  margin: 0%;
+  height: 100vh;
+  text-align: center;
+  font-family: Poppins;
+}
+
+p,a{
+  font-size: larger;
+}
+
+a, a:visited{
+  text-decoration: none;
+}
+
+a::after{
+  content: ">"
+}
+
+.container{
+  padding: 50px 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box{
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}

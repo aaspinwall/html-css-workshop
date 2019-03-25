@@ -5,21 +5,44 @@ body {
 .container {
   display: grid;
   min-height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px auto 100px;
+  grid-template-areas: 
+  "nav nav"
+  "main main"
+  "footer footer";
 }
 
 .nav {
-  height: 50px;
   background-color: rebeccapurple;
+  grid-area: nav;
 }
 
 .aside {
   background-color: forestgreen;
+  display: none;
+  grid-area: side;
 }
 
 .main {
+  text-align: center;
+  background: white;
+  grid-area: main;
 }
 
 .footer {
-  height: 100px;
   background-color: midnightblue;
+  grid-area: footer;
 }
+
+@media (min-width: 768px){
+  .aside{display: inline-block}
+  .container{
+    grid-template-columns: 30% auto;
+    grid-template-rows: 50px auto 100px;
+    grid-template-areas: 
+    "nav nav"
+    "side main"
+    "side footer";
+  }
+} 

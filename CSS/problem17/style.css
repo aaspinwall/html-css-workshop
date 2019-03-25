@@ -1,0 +1,17 @@
+body{
+  margin: 0%;
+  height: 100vh;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.img{
+  content: url(imgs/product.jpg);
+  border-color: red;
+  border-width: 0.5px;
+  border-style: solid;
+}

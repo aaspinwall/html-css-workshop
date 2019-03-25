@@ -1,13 +1,25 @@
-body {
+body{
+  height: 100vh;
   margin: 0;
 }
 
-.nav {
-  background-color: #383737;
+ul{
+  list-style: none;
+  padding: 0px;
 }
 
-.nav-dropdown {
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
+li{
+
+}
+
+.nav-dropdown{
+  left: 30px;
+}
+
+.menu{
+  padding: 0px;
+}
+
+.nav{
+
 }

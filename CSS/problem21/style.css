@@ -1,17 +1,49 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 1fr;
+  grid-template-areas: 
+    "top"
+    "middle"
+    "bottom"
+}
+
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: top;
+  text-align: center;
 }
 
 #facts {
+  grid-area: middle;
 }
 
-tr {
+.bottom{
+  grid-area: bottom;
+}
+
+tr:nth-child(even){
+  background: rgba(194, 194, 194, 0.596);
+}
+
+table{
+  padding: 10px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgba(128, 128, 128, 0.459);
+  border-radius: 10px;
+}
+
+tr, td, th {
+  padding: 10px;
+  margin: 0px;
+  border: 0px;
 }
 
 th {
-}
-
-td,
-th {
+  text-align: left;
 }
 
 h3 {
@@ -19,10 +51,26 @@ h3 {
 }
 
 /* Using CSS grid */
+
+ul{
+  padding: 0px;
+}
+
 .links {
+  display: flex;
+}
+
+.links > li:first-child{
+  margin-left: 0px;
 }
 
 .links > li {
+  list-style: none;
+  background: #4885ed;
+  width: 100%;
+  margin: 30px 5px;  
+  padding: 10px;
+  text-align: center;
 }
 
 /* 
@@ -38,4 +86,6 @@ You can comment / uncomment this code using cmd+/
 */
 
 .links a {
+  text-decoration: none;
+  color: white;
 }
